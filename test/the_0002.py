@@ -4,7 +4,7 @@ import pymysql
 #数据库地址，用户名，密码，数据库名
 db = pymysql.Connect("localhost", "root", "111999333", "py_test")
 
-#串讲一个游标对象cursor
+#创建一个游标对象cursor
 cursor = db.cursor()
 
 
